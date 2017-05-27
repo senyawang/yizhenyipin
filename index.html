@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="./src/lib/swiper.min.css">
+</head>
+<body>
+
+
+<div class="vux-header" style="">
+  <div class="vux-header-left">
+    <a class="vux-header-back" style="display: none;"></a>
+    <a slot="left">Close</a>
+  </div>
+  <h1 class="vux-header-title">with right link</h1>
+  <div class="vux-header-right">
+    
+    <a slot="right">Feedback</a>
+  </div>
+</div>
+
+
+</div>
+    
+<Xheader style="" :left-options="{showBack: false}"><a slot="left">Close</a>with right link<a slot="right" @click="show=true">Feedback</a></Xheader>
+
+<script type="text/javascript" src="dist/commons.js"></script>
+<script type="text/javascript" src="dist/index.js"></script>
+
+</body>
+</html>
