@@ -192,7 +192,10 @@ body{
 
 .hylpz{
     height: 706px;
-    background: #FFF url(../../img/b3-bg.jpg) no-repeat center top; 
+    background: #FFF url(../../img/b3-bg.jpg) no-repeat center top;
+    .w1160{
+      position: relative;
+    }
     &-title{
         margin-top: 30px; 
     }
@@ -224,7 +227,11 @@ body{
     }
 }
 
-
+.hylpz-news{
+  position: absolute;
+  right: 0;
+  top: -20px;
+}
 
 
 

@@ -143,6 +143,8 @@ body {
 .hylpz {
   height: 706px;
   background: #FFF url(../../img/b3-bg.jpg) no-repeat center top; }
+  .hylpz .w1160 {
+    position: relative; }
   .hylpz-title {
     margin-top: 30px; }
   .hylpz-pics {
@@ -166,3 +168,8 @@ body {
       margin-bottom: 1px; }
     .hylpz-pic:last-child {
       margin-left: 1px; }
+
+.hylpz-news {
+  position: absolute;
+  right: 0;
+  top: -20px; }
