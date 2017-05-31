@@ -139,15 +139,49 @@ input {
     }
 }
 
-.abs-iconfont{
-    position: absolute;
-    top: 50%;
-    right: $paddingSide;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    color: $gray;
+.hylpz-news{
+  position: absolute;
+  left: 633px;
 }
 
+.box-inset-radius{
+  position: relative;
+  background: #a98e7f;
+  overflow: hidden;
+  //border-radius: 10px/10px;
+  .box-inset-radius-inner{
+    height:742px;
+    margin: 1px;
+    background: #FFFFFF;
+  }
+  &:after,
+  &:before,
+  .box-inset-radius-inner:after,
+  .box-inset-radius-inner:before{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    width:18px;
+    height:18px;
+    border: 1px solid #a98e7f;
+    border-radius: 50%;
+    background: #f2f2f2;
+  }
+  &:before,
+  .box-inset-radius-inner:before{
+    left: auto;
+    right: -10px;
+
+  }
+  .box-inset-radius-inner:after,
+  .box-inset-radius-inner:before{
+    top: auto;
+    bottom: -10px;
+  }
+
+
+}
 
 
 .css-arrow{
