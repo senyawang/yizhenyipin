@@ -1,10 +1,3 @@
-.header:after {
-  content: "";
-  display: block;
-  height: 0;
-  overflow: hidden;
-  clear: both; }
-
 body {
   background: #f1f1f1 url(../../img/bodybg.png) repeat-x; }
 
@@ -13,63 +6,6 @@ body {
 
 .fr {
   float: right; }
-
-.header .w1200 {
-  overflow: hidden; }
-
-.header-logo {
-  float: left; }
-
-.header-nav {
-  float: left;
-  width: 780px;
-  text-align: right; }
-  .header-navItem {
-    float: left;
-    height: 155px;
-    padding: 20px 20px;
-    font-size: 14px; }
-    .header-navItem .fs12 {
-      font-size: 12px;
-      color: #999; }
-    .header-navItem--hover, .header-navItem:hover {
-      color: #fff;
-      background: url(../../img/navbg.png) no-repeat right top; }
-      .header-navItem--hover .fs12, .header-navItem:hover .fs12 {
-        color: #FFF; }
-  .header-navCont {
-    display: inline-block;
-    margin-top: 120px; }
-
-.header .uiSearch {
-  width: 160px;
-  margin-top: 140px;
-  border: 1px solid #a31119; }
-
-.uiSearch {
-  float: left;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  -webkit-box-shadow: 0 2px 2px #ccc;
-          box-shadow: 0 2px 2px #ccc; }
-  .uiSearch-input {
-    width: 100%;
-    background: transparent;
-    border: 0 none; }
-  .uiSearch-btn {
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    width: 19px;
-    height: 19px;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    border: 0 none;
-    background: url(../../img/i-zoom.png) no-repeat center center; }
 
 .indexBanner-item {
   height: 508px;
