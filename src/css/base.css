@@ -555,7 +555,7 @@ a {
   color: #2d2d2d; }
   a:hover {
     outline: none;
-    color: #a31119; }
+    color: #c9090c; }
 
 button, input, select, textarea, label {
   font-size: 100%;
@@ -659,16 +659,11 @@ input {
   .ui-btn-red:link, .ui-btn-red:visited {
     color: #cf121b; }
 
-.hylpz-news {
-  position: absolute;
-  left: 633px; }
-
 .box-inset-radius {
   position: relative;
   background: #a98e7f;
   overflow: hidden; }
   .box-inset-radius .box-inset-radius-inner {
-    height: 742px;
     margin: 1px;
     background: #FFFFFF; }
   .box-inset-radius:after, .box-inset-radius:before,
@@ -683,7 +678,7 @@ input {
     border: 1px solid #a98e7f;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    background: #f2f2f2; }
+    background: #FFFFFF; }
   .box-inset-radius:before,
   .box-inset-radius .box-inset-radius-inner:before {
     left: auto;
@@ -692,6 +687,43 @@ input {
   .box-inset-radius .box-inset-radius-inner:before {
     top: auto;
     bottom: -10px; }
+
+.box-inset-radius-wrapper {
+  position: relative; }
+  .box-inset-radius-wrapper .bi-shadow {
+    position: absolute;
+    width: 100%;
+    height: 24px;
+    left: 0;
+    bottom: -24px;
+    opacity: .5;
+    background: url(../img/b3-r-shadow.png) no-repeat center top;
+    background-size: 100% auto; }
+
+.box-inner-title {
+  padding: 30px;
+  text-align: center;
+  font: 18px/1.2 simsun,microsoft yahei, arial; }
+  .box-inner-title.box-inner-title-tal {
+    text-align: left;
+    padding: 40px; }
+    .box-inner-title.box-inner-title-tal h3 {
+      display: inline-block;
+      line-height: 1.5;
+      border-bottom: 1px solid #a31119; }
+
+.hover-mask {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #000;
+  color: #FFFFFF;
+  background: #000000;
+  background: rgba(0, 0, 0, 0.4); }
 
 .css-arrow {
   width: 0;
@@ -924,6 +956,19 @@ input {
   border: 1px solid #ccc;
   -webkit-box-shadow: 0 2px 2px #ccc;
           box-shadow: 0 2px 2px #ccc; }
+  .uiSearch-label {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 1.1;
+    padding-right: 10px;
+    border-right: 1px solid #ccc; }
+    .uiSearch-label strong {
+      font-size: 16px; }
+    .uiSearch-label p {
+      font-size: 12px; }
+    .uiSearch-label + input {
+      width: auto; }
   .uiSearch-input {
     width: 100%;
     background: transparent;
