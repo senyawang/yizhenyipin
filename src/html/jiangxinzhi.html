@@ -16,10 +16,10 @@
 
   
 
-  <link rel="stylesheet" href="../css/page/jiangxinzhi.css">
+  <link rel="stylesheet" href="../css/page/subpage.css">
 
 </head>
-<body>
+<body class="jiangxinzhi">
 <div class="header">
     <div class="w1200">
         <a href="/" class="header-logo"><img src="../img/logo.png" height="195" width="200" alt="一镇一品"></a>
@@ -75,7 +75,7 @@
 <!-- header -->
   
 
-<div class="jiangxinzhi-banner">
+<div class="subpage-banner">
   <div class="bg-below"></div>
   <div class="main">
     <div class="bg-center">
@@ -83,7 +83,7 @@
     </div>
     <div class="info">
       <div class="slider">
-        <div class="swiper-container swiper-slider swiper-container-horizontal">
+        <div class="swiper-container subpage-banner-slider">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <img src="../img/banner-brand.jpg" alt="">
@@ -96,7 +96,7 @@
             </div>
           </div>
           <!-- Add Pagination -->
-          <div class="swiper-pagination swiper-pagination-slider"></div>
+          <div class="swiper-pagination subpage-banner-slider-page"></div>
         </div>
       </div>
       <div class="news">
@@ -117,7 +117,7 @@
 <!-- ./jiangxinzhi-banner -->
 <div class="zhuanfang">
  <div class="bg"><img src="../img/zhuanfang.jpg" alt=""></div>
- <div class="main-wrap">
+ <div class="plane1">
    <div class="main">
     <img src="../img/icon-d.png" alt="" class="icon">
     <div class="title"><img src="../img/title-bus-list.png" alt=""></div>
@@ -148,7 +148,7 @@
 </div>
 <!-- ./zhuanfang -->
 <div class="hangyebiaogan">
-  <h1><img src="../img/title-biaogan.png" alt=""></h1>
+  <h1 class="block-title"><img src="../img/title-biaogan.png" alt=""></h1>
   <div class="bg">
     <div class="main">
       <p class="b1"><img src="../img/biaogan-1.jpg" alt=""></p>
@@ -160,7 +160,7 @@
 </div>
 <!-- ./hangyebiaogan -->
 <div class="xinjinpinpai">
-  <h1><img src="../img/title-newBrand.png" alt=""></h1>
+  <h1 class="block-title"><img src="../img/title-newBrand.png" alt=""></h1>
   <div class="xinjinpinpai-swiper-wrap">
     <div class="swiper-container swiper-xinjinpinpai swiper-container-horizontal">
       <div class="swiper-wrapper">
@@ -216,8 +216,8 @@
 <!-- ./xinjinpinpai -->
 <div class="jingxuanpinpai-wrap">
   <div class="jingxuanpinpai">
-    <h1><img src="../img/title-topBrand.png" alt=""></h1>
-    <div class="search">
+    <h1 class="block-title"><img src="../img/title-topBrand.png" alt=""></h1>
+    <div class="block-search">
       <p>
         <input type="text" placeholder="输入品牌名称">
         <button>search</button>
@@ -261,8 +261,8 @@
     e.preventDefault()
     swiper.swipePrev()
   });
-  var slider = new Swiper('.swiper-slider', {
-    pagination: '.swiper-pagination-slider',
+  var slider = new Swiper('.subpage-banner-slider', {
+    pagination: '.subpage-banner-slider-page',
     paginationClickable: true
   });
 }())
