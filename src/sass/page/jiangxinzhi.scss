@@ -1,0 +1,137 @@
+@import "../var.scss";
+@import '../mixin.scss';
+
+.jiangxinzhi{}
+.zhuanfang{
+  color:#333;
+  width: 1200px;
+  margin:100px auto 0;
+  position: relative;
+  .bg{
+    height: 688px;
+    background: #1a0806;
+  }
+  .plane1{
+    position: absolute;
+    right:20px;
+    top:-100px;
+  }
+}
+
+.hangyebiaogan{
+  .block-title{padding:70px 0 110px;}
+  .bg{
+    background: #1c151d url("../../img/brand-bg.jpg") 0 0 no-repeat;
+  }
+  .main{
+    width: 1200px;height:652px;margin:0 auto;position: relative;
+    p{
+      position: absolute;
+    }
+    .b1{width: 320px;top:0;left:0;}
+    .b2{width: 475px;top:-70px;left:320px;box-shadow:0px 0px 25px rgba(0,0,0,.15);}
+    .b3{width: 320px;top:0;left:795px;}
+    .b4{width: 539px;bottom:0;left:795px;}
+  }
+}
+
+.xinjinpinpai{
+  padding-bottom: 60px;
+  .block-title{padding:140px 0 30px;}
+  .xinjinpinpai-swiper-wrap{
+    width: 1095px;
+    position: relative;
+    margin:0 auto;
+  }
+  .swiper-container{
+    width: 1095px;
+    height:280px;
+    .swiper-slide{
+      margin-right: 0px;height:300px;
+      div{
+        width:350px;
+        margin:0 auto;
+        background: #fff;
+        box-shadow:0px 0px 13px rgba(0,0,0,.2);
+        position: relative;
+      }
+      p{
+        font-size: 16px;
+        padding:48px 0 10px;
+        text-align: center;
+      }
+    }
+  }
+  .thumb{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    box-shadow:0px 0px 15px rgba(0,0,0,.2);
+    position: absolute;
+    top:155px;
+    left:50%;
+    margin-left:-30px;
+  }
+  .swiper-button-next,.swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    z-index: 10;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    &:active{
+      opacity: .6;
+      -webkit-opacity: .6;
+      filter:alpha(opacity=60);
+    }
+  }
+  .swiper-button-next{
+    left:-55px;
+    background: url('../../img/icon-prev.png');
+  }
+  .swiper-button-prev{
+    right:-55px;
+    background: url('../../img/icon-next.png');
+  }
+}
+
+.jingxuanpinpai-wrap{
+  background: #f7f7f7;
+}
+
+.jingxuanpinpai{
+  width: 1200px;margin:0 auto;position: relative;
+  padding-bottom: 100px;
+  .block-title{padding:55px 0 30px;}
+  
+  ul{
+    @extend %clearfix;
+    padding-top:45px;
+  }
+  li{
+    float:left;
+    width: 200px;
+    height: 200px;
+    a{
+      display: block;
+      width: 198px;
+      height:198px;
+      background: #fff;
+      transition:All 0.2s ease-in-out;
+      -webkit-transition:All 0.2s ease-in-out;
+      -moz-transition:All 0.2s ease-in-out;
+      -o-transition:All 0.2s ease-in-out;
+      &:hover{
+        transform:scale(1.1);
+        -webkit-transform:scale(1.1);
+        -moz-transform:scale(1.1);
+        -o-transform:scale(1.1);
+        -ms-transform:scale(1.1);
+        box-shadow: 0 0 16px rgba(0,0,0,.08)
+      }
+    }
+  }
+}
