@@ -53,6 +53,7 @@ Basic Swiper Styles
   transform: translate3d(0px, 0, 0);
   transition-timing-function: ease;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
 .swiper-free-mode > .swiper-wrapper {
@@ -63,6 +64,7 @@ Basic Swiper Styles
 .swiper-slide {
   float: left;
   -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box; }
 
 /* IE10 Windows Phone 8 Fixes */
@@ -116,7 +118,7 @@ Pagination Styles
   background: #b8b5b4;
   filter: alpha(opacity=50);
   background: #ffffff;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, 0.5);
   vertical-align: middle; }
 
 .swiper-active-switch {
