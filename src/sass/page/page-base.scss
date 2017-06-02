@@ -108,6 +108,7 @@
       background: url("../../img/icon-like.png") 0 0 no-repeat;
     }
   }
+  .last-item{border:none;}
   p{
     position: absolute;
     top:20px;
@@ -144,7 +145,7 @@
 }
 //end plane1
 .block-title{
-  text-align: center;padding:30px 0;
+  text-align: center;padding:45px 0 30px;
 }
 // end block-title
 .block-search{
