@@ -42,3 +42,25 @@
         });
     };
 })(jQuery);
+
+$(function () {
+    var minH = $(window).height(),
+        node = $(".ui-gotop"),
+        bodyH = $("body").height();
+        // bottomOffsetTop = $(".bottom .btm_main").offset().top,
+        // maxH =  parseInt(bodyH) - parseInt(minH) ;
+
+    window.onscroll=function(){
+        var scrollH = $(window).scrollTop();
+        if(scrollH > 300){
+            node.show();
+            // if(scrollH>maxH){
+            //     node.css("bottom",bodyH-bottomOffsetTop+4);
+            // }else{
+            //     node.css("bottom", 50);
+            // }
+        }else{
+            node.hide();
+        }
+    }
+})

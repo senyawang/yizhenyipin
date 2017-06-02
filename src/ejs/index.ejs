@@ -13,9 +13,23 @@
 <%-include include/commonTop %>
 
   <div class="indexBanner">
-    <ul>
-      <li class="indexBanner-item" style="background-image: url(../../images/banner1.jpg)"></li>
-    </ul>
+      <!-- Swiper -->
+      <div class="swiper-container common-swiper index-banner">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide indexBanner-item" style="background-image: url(../../images/banner1.jpg)"></div>
+              <div class="swiper-slide indexBanner-item" style="background-image: url(../../images/banner1.jpg)"></div>
+              <div class="swiper-slide indexBanner-item" style="background-image: url(../../images/banner1.jpg)"></div>
+              <div class="swiper-slide indexBanner-item" style="background-image: url(../../images/banner1.jpg)"></div>
+
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+          <!--&lt;!&ndash; Add Arrows &ndash;&gt;-->
+          <!--<div class="swiper-button-next"></div>-->
+          <!--<div class="swiper-button-prev"></div>-->
+      </div>
+
+
   </div>
   <!-- indexBanner -->
 
@@ -848,13 +862,31 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#"><img src="../../images/b6-l-banner.jpg" alt=""></a>
+                            <a href="#">
+                                <img src="../../images/b6-l-banner.jpg" alt="">
+                                <p class="sl-text">西瓜哥就是威武霸气若是不同意就是不客观西瓜哥就是威武霸气若是不同意就是不客观西瓜哥就是威武霸气若【更多】</p>
+                            </a>
+                            <a href="#" class="btn-more">
+                                <img src="../img/i-more.png" height="29" width="94" alt="more">
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#"><img src="../../images/b6-l-banner.jpg" alt=""></a>
+                            <a href="#">
+                                <img src="../../images/b6-l-banner.jpg" alt="">
+                                <p class="sl-text">西瓜哥就是威武霸气若是不同意就是不客观西瓜哥就是威武霸气若是不同意就是不客观西瓜哥就是威武霸气若【更多】</p>
+                            </a>
+                            <a href="#" class="btn-more">
+                                <img src="../img/i-more.png" height="29" width="94" alt="more">
+                            </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="#"><img src="../../images/b6-l-banner.jpg" alt=""></a>
+                            <a href="#">
+                                <img src="../../images/b6-l-banner.jpg" alt="">
+                                <p class="sl-text">西瓜哥就是威武霸气若是不同意就是不客观西瓜哥就是威武霸气若是不同意就是不客观西瓜哥就是威武霸气若【更多】</p>
+                            </a>
+                            <a href="#" class="btn-more">
+                                <img src="../img/i-more.png" height="29" width="94" alt="more">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1069,6 +1101,30 @@
         </div>
         <!--.cppj-right-->
     </div>
+</div>
+
+<div class="ui-gotop">
+    <a class="item" href="#">
+        <i class="i-nav-gotop"></i>
+        <span class="ug-top">
+            <i class="i-nav-arrow-t"></i>
+            返回顶部
+        </span>
+    </a>
+    <!--<a class="item" href="http://imall.cctv.com/one/index.shtml" target="_blank">-->
+        <!--<i class="i-nav-qlink"></i>-->
+        <!--<span class="ug-top">-->
+            <!--<i class="i-nav-plus"></i>-->
+            <!--一镇一品-->
+        <!--</span>-->
+    <!--</a>-->
+    <a class="item" href="javascript:void(0)">
+        <i class="i-nav-scan"></i>
+        <span class="ug-top">
+            央视网商城手机端
+            <img src="http://js.static.cctvmall.cn/css/images/m.cctvmall.qrcode.png" alt="央视网商城手机端二维码">
+        </span>
+    </a>
 </div>
 
 <%-include include/footer %>

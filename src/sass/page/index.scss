@@ -22,6 +22,12 @@ body{
         background-repeat: no-repeat ;
         background-position: center top;
     }
+  .common-swiper.swiper-container{
+    .swiper-pagination{
+      left: 45%;
+      right: 45%;
+    }
+  }
 }
 .block-title{
     text-align: center;
@@ -478,6 +484,18 @@ body{
     font: 16px/48px $font;
     background: rgba(255,255,255, .5);
   }
+  .swiper-button-next{
+    background: url("../../img/i-arrow1-r.png") no-repeat center center;
+    &:hover{
+      background: url("../../img/i-arrow1-r-active.png") no-repeat center center;
+    }
+  }
+  .swiper-button-prev{
+    background: url("../../img/i-arrow1-l.png") no-repeat center center;
+    &:hover{
+      background: url("../../img/i-arrow1-l-active.png") no-repeat center center;
+    }
+  }
   .swiper-pagination{
     bottom: 0px;
     .swiper-pagination-bullet{
@@ -494,12 +512,33 @@ body{
     }
   }
 }
+.jyz-middle-top{
+  .swiper-button-next,
+  .swiper-button-prev{
+    left: auto;
+    top: auto;
+    right: 5px;
+    bottom: 5px;
+  }
+  .swiper-button-prev{
+    right: 30px;
+  }
+}
 .jyz-middle-bottom{
   position: relative;
   width: 300px;
   height: 288px;
   margin: 30px auto;
   background: url("../../img/b4-m-bg.png") no-repeat;
+  .swiper-button-next,
+  .swiper-button-prev{
+    margin-top: 5px;
+    margin-right: -10px;
+  }
+  .swiper-button-prev{
+    right: 30px;
+    margin-left: -10px;
+  }
   img{
     border-radius: 50%;
   }

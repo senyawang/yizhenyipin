@@ -1094,7 +1094,7 @@ input {
     font: 18px/2.5 microsoft yahei, simsun, arial; }
   .footer .footer-logo {
     float: left;
-    margin: 0 40px; }
+    margin: 15px 40px; }
 
 .footer .rit {
   float: right;
@@ -1137,6 +1137,89 @@ input {
 .footer .rit .blabtm {
   padding: 0 0 4px;
   color: #f2f2f2; }
+
+.ui-gotop {
+  position: fixed;
+  display: none;
+  width: 35px;
+  line-height: 35px;
+  font-size: 14px;
+  z-index: 99999;
+  left: 50%;
+  margin-left: 640px;
+  bottom: 120px;
+  overflow: hidden; }
+
+.ui-gotop [class^=i-] {
+  position: relative;
+  z-index: 2;
+  vertical-align: top; }
+
+.ui-gotop:hover {
+  margin-left: 340px;
+  bottom: 0px;
+  padding: 0 0 120px 300px; }
+
+.ui-gotop .item {
+  position: relative;
+  display: block;
+  vertical-align: top;
+  width: 35px;
+  height: 35px;
+  margin-bottom: 10px;
+  background: #3a3a3a;
+  overflow: hidden; }
+
+.ui-gotop .item span {
+  position: absolute;
+  z-index: -1;
+  width: 7em;
+  height: 100%;
+  right: -10em;
+  top: 0;
+  background: #d0121b;
+  color: #fff;
+  text-align: center;
+  -webkit-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+  -webkit-transition: all .4s;
+  transition: all .4s; }
+
+.ui-gotop .item span [class^=i-] {
+  z-index: 1;
+  vertical-align: middle; }
+
+.ui-gotop .item:last-child {
+  font: 12px/2 micrsoft yahei; }
+
+.ui-gotop .item:last-child span {
+  width: 100px;
+  height: 125px;
+  padding: 0 10px 10px;
+  background: #616161; }
+
+.ui-gotop .item:hover {
+  overflow: visible; }
+
+.ui-gotop .item:hover span {
+  right: 100%; }
+
+.i-nav-arrow-t {
+  width: 35px;
+  height: 35px;
+  background: url("../img/i-top.png"); }
+
+.i-nav-gotop {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../img/i-top.png"); }
+
+.i-nav-scan {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background: url("../img/i-sao.png"); }
 
 .header .w1200 {
   overflow: hidden; }

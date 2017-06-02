@@ -5,6 +5,14 @@ $(function () {
         prevButton: '.swiper-button-prev',
         paginationClickable: true
     });
+    new Swiper('.index-banner', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        autoplay: 3000,
+        effect: 'fade'
+    });
 
     var swiper = new Swiper('.jyz-middle-top', {
         pagination: '.swiper-pagination',

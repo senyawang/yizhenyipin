@@ -12,6 +12,10 @@ body {
   background-repeat: no-repeat;
   background-position: center top; }
 
+.indexBanner .common-swiper.swiper-container .swiper-pagination {
+  left: 45%;
+  right: 45%; }
+
 .block-title {
   text-align: center;
   padding: 40px 0; }
@@ -364,6 +368,14 @@ body {
     font: 16px/48px microsoft yahei, simsun, arial;
     background: #ffffff;
     background: rgba(255, 255, 255, 0.5); }
+  .jyz-middle .swiper-button-next {
+    background: url("../../img/i-arrow1-r.png") no-repeat center center; }
+    .jyz-middle .swiper-button-next:hover {
+      background: url("../../img/i-arrow1-r-active.png") no-repeat center center; }
+  .jyz-middle .swiper-button-prev {
+    background: url("../../img/i-arrow1-l.png") no-repeat center center; }
+    .jyz-middle .swiper-button-prev:hover {
+      background: url("../../img/i-arrow1-l-active.png") no-repeat center center; }
   .jyz-middle .swiper-pagination {
     bottom: 0px; }
     .jyz-middle .swiper-pagination .swiper-pagination-bullet {
@@ -378,12 +390,29 @@ body {
       .jyz-middle .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
         background: #a31119; }
 
+.jyz-middle-top .swiper-button-next,
+.jyz-middle-top .swiper-button-prev {
+  left: auto;
+  top: auto;
+  right: 5px;
+  bottom: 5px; }
+
+.jyz-middle-top .swiper-button-prev {
+  right: 30px; }
+
 .jyz-middle-bottom {
   position: relative;
   width: 300px;
   height: 288px;
   margin: 30px auto;
   background: url("../../img/b4-m-bg.png") no-repeat; }
+  .jyz-middle-bottom .swiper-button-next,
+  .jyz-middle-bottom .swiper-button-prev {
+    margin-top: 5px;
+    margin-right: -10px; }
+  .jyz-middle-bottom .swiper-button-prev {
+    right: 30px;
+    margin-left: -10px; }
   .jyz-middle-bottom img {
     -webkit-border-radius: 50%;
             border-radius: 50%; }
